@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RFGeCommerce/static/css/main.fae3cf8a.chunk.css",
+    "main.js": "/RFGeCommerce/static/js/main.f28c2913.chunk.js",
+    "main.js.map": "/RFGeCommerce/static/js/main.f28c2913.chunk.js.map",
+    "runtime-main.js": "/RFGeCommerce/static/js/runtime-main.483a53a9.js",
+    "runtime-main.js.map": "/RFGeCommerce/static/js/runtime-main.483a53a9.js.map",
+    "static/js/2.0a6cc0ef.chunk.js": "/RFGeCommerce/static/js/2.0a6cc0ef.chunk.js",
+    "static/js/2.0a6cc0ef.chunk.js.map": "/RFGeCommerce/static/js/2.0a6cc0ef.chunk.js.map",
+    "index.html": "/RFGeCommerce/index.html",
+    "static/css/main.fae3cf8a.chunk.css.map": "/RFGeCommerce/static/css/main.fae3cf8a.chunk.css.map",
+    "static/js/2.0a6cc0ef.chunk.js.LICENSE.txt": "/RFGeCommerce/static/js/2.0a6cc0ef.chunk.js.LICENSE.txt",
+    "static/media/ShopMen.ac2cabdc.jpg": "/RFGeCommerce/static/media/ShopMen.ac2cabdc.jpg",
+    "static/media/ShopWomen.ac2cabdc.jpg": "/RFGeCommerce/static/media/ShopWomen.ac2cabdc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.483a53a9.js",
+    "static/js/2.0a6cc0ef.chunk.js",
+    "static/css/main.fae3cf8a.chunk.css",
+    "static/js/main.f28c2913.chunk.js"
+  ]
+}
