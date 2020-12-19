@@ -10,7 +10,7 @@ require('dotenv').config()
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter
-    basename={process.env.PUBLIC_URL}
+    // basename={process.env.PUBLIC_URL}
     >
     <App />
     </BrowserRouter>
