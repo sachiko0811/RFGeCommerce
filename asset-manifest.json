@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "RFGeCommerce/static/css/main.8db63f8f.chunk.css",
-    "main.js": "RFGeCommerce/static/js/main.e7b44067.chunk.js",
-    "main.js.map": "RFGeCommerce/static/js/main.e7b44067.chunk.js.map",
+    "main.js": "RFGeCommerce/static/js/main.c40611ee.chunk.js",
+    "main.js.map": "RFGeCommerce/static/js/main.c40611ee.chunk.js.map",
     "runtime-main.js": "RFGeCommerce/static/js/runtime-main.f7dc5776.js",
     "runtime-main.js.map": "RFGeCommerce/static/js/runtime-main.f7dc5776.js.map",
     "static/js/2.e6bca210.chunk.js": "RFGeCommerce/static/js/2.e6bca210.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f7dc5776.js",
     "static/js/2.e6bca210.chunk.js",
     "static/css/main.8db63f8f.chunk.css",
-    "static/js/main.e7b44067.chunk.js"
+    "static/js/main.c40611ee.chunk.js"
   ]
 }
