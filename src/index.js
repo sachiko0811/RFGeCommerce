@@ -10,7 +10,7 @@ require('dotenv').config()
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter
-    basename="/RFGeCommerce">
+    basename={process.env.PUBLIC_URL}>
     <App />
     </BrowserRouter>
   </React.StrictMode>,
