@@ -10,6 +10,7 @@ import HomepageLayout from './layouts/HomepageLayout';
 import Homepage from './pages/Homepage/index';
 import Registration from './pages/Registration/index';
 import Login from './pages/Login';
+import Recovery from './pages/Recovery';
 import './default.scss';
 
 import {  } from './firebase/config';
@@ -86,6 +87,14 @@ class App extends Component {
             render={()=> currentUser ? <Redirect to="/" /> : (
               <MainLayout currentUser={currentUser}>
                 <Login />
+              </MainLayout>
+            )}
+            />
+            <Route 
+            path="/recovery" 
+            render={()=> (
+              <MainLayout>
+                <Recovery />
               </MainLayout>
             )}
             />
