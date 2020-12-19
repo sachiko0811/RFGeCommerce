@@ -1,5 +1,7 @@
+const API_KEY =`${process.env.REACT_APP_FIREBASE_API_KEY}`
+
 export const firebaseConfig = {
-        apiKey: "AIzaSyD-hONKJehOzOXebkDIpfLWeicsViozKUw",
+        apiKey: API_KEY,
         authDomain: "ecommerce-website-4d943.firebaseapp.com",
         projectId: "ecommerce-website-4d943",
         storageBucket: "ecommerce-website-4d943.appspot.com",

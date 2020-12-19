@@ -12,9 +12,13 @@ import Registration from './pages/Registration/index';
 import Login from './pages/Login';
 import './default.scss';
 
+import {  } from './firebase/config';
+
 const initialState = {
   currentUser: null
 }
+
+// console.log("API", firebaseConfig)
 
 class App extends Component {
 

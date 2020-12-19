@@ -11,7 +11,7 @@ const initialState = {
     email: '',
     password: '',
     confirmPassword: '',
-    errors: ''
+    errors: []
 }
 
 class Signup extends Component {
@@ -29,13 +29,13 @@ class Signup extends Component {
         const { name, value } = e.target;
 
         this.setState({
-            [name]: value,
+            [name]: value
         })
         }
 
     handleFormSubmit = async event => {
         event.preventDefault();
-        const { displayName, email, password, confirmPassword, errors } = this.state;
+        const { displayName, email, password, confirmPassword } = this.state;
 
         // think about validation
 
@@ -119,7 +119,8 @@ class Signup extends Component {
                         />
 
                         <Button 
-                        type="submit">
+                        type="submit"
+                        >
                             Register
                         </Button>
 

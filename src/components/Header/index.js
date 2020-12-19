@@ -18,14 +18,13 @@ const Header = props => {
 
                 <div className="callToActions">
 
+              
                     {currentUser && (
-                        <ul>
                             <li>
                                 <span onClick={() => auth.signOut()}>
                                     LogOut
                                 </span>
                             </li>
-                        </ul>
                     )}
 
                     {!currentUser && (
