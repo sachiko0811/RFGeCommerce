@@ -85,6 +85,7 @@ class Signup extends Component {
                     )}
 
                     <div className="formWrap">
+                        
                     <form onSubmit={this.handleFormSubmit}>
                         <FormInput 
                         type="text"

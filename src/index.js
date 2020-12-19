@@ -5,9 +5,12 @@ import App from './App';
 
 import './default.scss';
 
+require('dotenv').config()
+
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter
+    basename="/RFGeCommerce">
     <App />
     </BrowserRouter>
   </React.StrictMode>,

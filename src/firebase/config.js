@@ -1,5 +1,7 @@
 const API_KEY =`${process.env.REACT_APP_FIREBASE_API_KEY}`
 
+console.log(API_KEY)
+
 export const firebaseConfig = {
         apiKey: API_KEY,
         authDomain: "ecommerce-website-4d943.firebaseapp.com",
