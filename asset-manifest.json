@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/RFGeCommerce/static/css/main.e9402cb8.chunk.css",
-    "main.js": "/RFGeCommerce/static/js/main.7c39c9e9.chunk.js",
-    "main.js.map": "/RFGeCommerce/static/js/main.7c39c9e9.chunk.js.map",
+    "main.css": "/RFGeCommerce/static/css/main.b8280d26.chunk.css",
+    "main.js": "/RFGeCommerce/static/js/main.9442f642.chunk.js",
+    "main.js.map": "/RFGeCommerce/static/js/main.9442f642.chunk.js.map",
     "runtime-main.js": "/RFGeCommerce/static/js/runtime-main.483a53a9.js",
     "runtime-main.js.map": "/RFGeCommerce/static/js/runtime-main.483a53a9.js.map",
-    "static/js/2.95497824.chunk.js": "/RFGeCommerce/static/js/2.95497824.chunk.js",
-    "static/js/2.95497824.chunk.js.map": "/RFGeCommerce/static/js/2.95497824.chunk.js.map",
+    "static/js/2.d0efc8e6.chunk.js": "/RFGeCommerce/static/js/2.d0efc8e6.chunk.js",
+    "static/js/2.d0efc8e6.chunk.js.map": "/RFGeCommerce/static/js/2.d0efc8e6.chunk.js.map",
     "index.html": "/RFGeCommerce/index.html",
-    "static/css/main.e9402cb8.chunk.css.map": "/RFGeCommerce/static/css/main.e9402cb8.chunk.css.map",
-    "static/js/2.95497824.chunk.js.LICENSE.txt": "/RFGeCommerce/static/js/2.95497824.chunk.js.LICENSE.txt",
+    "static/css/main.b8280d26.chunk.css.map": "/RFGeCommerce/static/css/main.b8280d26.chunk.css.map",
+    "static/js/2.d0efc8e6.chunk.js.LICENSE.txt": "/RFGeCommerce/static/js/2.d0efc8e6.chunk.js.LICENSE.txt",
     "static/media/ShopMen.1df6426f.jpg": "/RFGeCommerce/static/media/ShopMen.1df6426f.jpg",
     "static/media/ShopWomen.40b3ad9e.jpg": "/RFGeCommerce/static/media/ShopWomen.40b3ad9e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.483a53a9.js",
-    "static/js/2.95497824.chunk.js",
-    "static/css/main.e9402cb8.chunk.css",
-    "static/js/main.7c39c9e9.chunk.js"
+    "static/js/2.d0efc8e6.chunk.js",
+    "static/css/main.b8280d26.chunk.css",
+    "static/js/main.9442f642.chunk.js"
   ]
 }
