@@ -3,8 +3,12 @@ import { useDispatch } from 'react-redux';
 import { Switch, Route } from 'react-router-dom';
 import { checkUserSession } from './redux/User/user.actions';
 
+//components
+import AdminToolbar from './components/AdminToolbar';
+
 //hoc
 import WithAuth from './hoc/withAuth';
+import WithAdminAuth from './hoc/withAdminAuth';
 
 // layouts
 import MainLayout from './layouts/MainLayout';
@@ -16,6 +20,7 @@ import Registration from './pages/Registration/index';
 import Login from './pages/Login';
 import Recovery from './pages/Recovery';
 import Dashboard from './pages/Dashboard';
+import Admin from './pages/Admin';
 import './default.scss';
 
 import {  } from './firebase/config';
@@ -38,6 +43,7 @@ const App = props => {
 
     return (
       <div className="App">
+        <AdminToolbar />
           <Switch>
             <Route exact 
             path="/" 
@@ -86,6 +92,16 @@ const App = props => {
                   <Dashboard />
                 </MainLayout>
               </WithAuth>
+            )}
+            />
+            <Route 
+            path="/admin" 
+            render={()=> (
+              <WithAdminAuth>
+                <MainLayout>
+                  <Admin />
+                </MainLayout>
+              </WithAdminAuth>
             )}
             />
           </Switch>
