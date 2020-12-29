@@ -128,12 +128,27 @@ export function* onResetPasswordStart() {
     yield takeLatest(userTypes.RESET_PASSWORD_START, resetPassword)
 }
 
+export function* googleSignIn() {
+    try {
+        const { user } = yield auth.signInWithPopup(GoogleProvider);
+        yield getSnapshotFromUserAuth(user);
+        
+    } catch(err) {
+        console.log(err)
+    }
+}
+
+export function* onGoogleSignInStart() {
+    yield takeLatest(userTypes.GOOGLE_SIGN_IN_START, googleSignIn)
+}
+
 export default function* userSagas() {
     yield all([
         call(onEmailSignInStart), 
         call(onCheckUserSession), 
         call(onSignOutUserStart),
         call(onSignUpUserStart),
-        call(onResetPasswordStart)
+        call(onResetPasswordStart),
+        call(onGoogleSignInStart),
     ])
 }
