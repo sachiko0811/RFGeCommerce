@@ -9,6 +9,8 @@ import AdminToolbar from './components/AdminToolbar';
 //hoc
 import WithAuth from './hoc/withAuth';
 import WithAdminAuth from './hoc/withAdminAuth';
+import AdminLayout from './layouts/AdminLayout';
+
 
 // layouts
 import MainLayout from './layouts/MainLayout';
@@ -16,11 +18,13 @@ import HomepageLayout from './layouts/HomepageLayout';
 
 // pages
 import Homepage from './pages/Homepage/index';
+import Search from './pages/Search';
 import Registration from './pages/Registration/index';
 import Login from './pages/Login';
 import Recovery from './pages/Recovery';
 import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
+
 import './default.scss';
 
 import {  } from './firebase/config';
@@ -45,7 +49,8 @@ const App = props => {
       <div className="App">
         <AdminToolbar />
           <Switch>
-            <Route exact 
+            <Route 
+            exact 
             path="/" 
             // component={Homepage}
             render={() => (
@@ -55,6 +60,13 @@ const App = props => {
               <Homepage />
               </HomepageLayout>
             )}/>
+            <Route path="/search"
+            render={() => (
+              <MainLayout>
+                <Search />
+              </MainLayout>
+            )}
+            />
             <Route 
             path="/registration" 
             // component={Registration}
@@ -98,9 +110,9 @@ const App = props => {
             path="/admin" 
             render={()=> (
               <WithAdminAuth>
-                <MainLayout>
+                <AdminLayout>
                   <Admin />
-                </MainLayout>
+                </AdminLayout>
               </WithAdminAuth>
             )}
             />
